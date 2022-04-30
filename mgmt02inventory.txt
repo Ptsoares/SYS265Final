@@ -1,0 +1,11 @@
+util01
+dhcp01
+dhcp02
+docker01
+[windows]
+dc01
+dc02
+dfs01
+dfs02
+[windows:vars]
+ansible_shell_type=powershell
