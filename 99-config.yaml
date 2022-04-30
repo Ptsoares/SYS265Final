@@ -1,0 +1,11 @@
+network:
+        version: 2
+        renderer: networkd
+        ethernets:
+                ens160:
+                        addresses:
+                                - 172.16.1.201/24
+                        gateway4: 172.16.1.2
+                        nameservers:
+                                search: [group5.local]
+                                addresses: [172.16.1.12,172.16.1.13]
